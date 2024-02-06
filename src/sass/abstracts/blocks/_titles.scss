@@ -1,0 +1,16 @@
+@use "../variables";
+
+.title {
+  color: variables.$text-color;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  &_left {
+    color: variables.$main-color;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: left;
+  }
+}

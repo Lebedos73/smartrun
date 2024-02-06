@@ -1,0 +1,28 @@
+@use "../variables";
+
+.button {
+  width: 153px;
+  height: 32px;
+  border-radius: 5px;
+  font-weight: 500;
+  text-align: center;
+  color: variables.$main-color;
+  background: variables.$button-color;
+  text-transform: uppercase;
+  border: none;
+  font-size: 12px;
+  &_main {
+    margin-top: 67px;
+    width: 300px;
+    height: 50px;
+    font-size: 16px;
+  }
+  &_submit {
+    width: 100%;
+    height: 55px;
+    color: variables.$main-color;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+  }
+}

@@ -1,0 +1,48 @@
+@use "variables";
+
+@media (max-width: 469px) {
+  .header {
+    flex-direction: column;
+    &__logo {
+      width: 220px;
+    }
+    &__official {
+      display: none;
+    }
+    &__phone {
+      margin-top: 18px;
+      font-size: 28px;
+    }
+  }
+  .button {
+    width: 230px;
+    height: 40px;
+    &_main {
+      width: 270px;
+      height: 50px;
+      font-size: 16px;
+      margin-top: 40px;
+    }
+  }
+
+  .promo {
+    min-height: 500px;
+    padding: 21px 0 30px 0;
+    &__wrapper {
+      margin-top: 40px;
+      align-items: center;
+    }
+    &__header {
+      font-size: 23px;
+      line-height: 23px;
+    }
+    &__subheader {
+      font-size: 13px;
+      margin-top: 0px;
+    }
+    &__icons {
+      margin-top: 30px;
+      width: 300px;
+    }
+  }
+}

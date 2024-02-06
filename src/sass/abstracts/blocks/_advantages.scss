@@ -1,0 +1,38 @@
+@use "../variables";
+
+.advantages {
+  background-color: variables.$advantages-color;
+  padding-top: 73px;
+  padding-bottom: 65px;
+  &__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  &__block {
+    margin-top: 65px;
+    display: flex;
+    flex-direction: column;
+    width: 225px;
+    color: variables.$text-color;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    text-align: center;
+    img {
+      margin: 0 auto;
+      width: 70px;
+      height: 70px;
+    }
+    span {
+      margin-top: 30px;
+      margin-bottom: 20px;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 29px;
+    }
+    a {
+      color: variables.$button-color;
+    }
+  }
+}
