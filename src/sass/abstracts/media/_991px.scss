@@ -1,0 +1,10 @@
+@use "../variables";
+
+@media (max-width: 991px) {
+  .consultation {
+    padding-left: 20px;
+  }
+  .carousel {
+    padding: 41px 0;
+  }
+}

@@ -1,0 +1,23 @@
+@use "../variables";
+
+@media (max-width: 767px) {
+  .advantages {
+    padding-top: 65px;
+    &__block {
+      margin-top: 35px;
+    }
+  }
+
+  .consultation {
+    min-height: 500px;
+    padding: 75px 0px 85px 20px;
+  }
+  .carousel {
+    padding: 21px 0;
+  }
+  .tns-item {
+    img {
+      width: 100%;
+    }
+  }
+}

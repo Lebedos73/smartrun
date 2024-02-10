@@ -1,0 +1,33 @@
+@use "../variables";
+
+@media (max-width: 575px) {
+  .header {
+    align-items: start;
+    &__left {
+      display: flex;
+      flex-direction: column;
+    }
+    &__logo {
+      width: 250px;
+    }
+    &__official {
+      font-size: 14px;
+      margin-top: 20px;
+      span {
+        font-size: 21px;
+      }
+    }
+    &_575 {
+      display: flex;
+    }
+    &_1399 {
+      display: none;
+    }
+  }
+
+  .promo {
+    &__wrapper {
+      align-items: center;
+    }
+  }
+}

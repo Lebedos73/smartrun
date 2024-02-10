@@ -1,0 +1,9 @@
+@use "../variables";
+
+@media (max-width: 645px) {
+  .header {
+    &__logo {
+      width: 220px;
+    }
+  }
+}

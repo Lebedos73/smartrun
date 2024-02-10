@@ -1,0 +1,24 @@
+@use "../variables";
+
+@media (max-width: 520px) {
+  .promo {
+    &__header {
+      font-size: 37px;
+    }
+    &__subheader {
+      font-size: 17px;
+      margin-top: 7px;
+    }
+    &__icons {
+      margin-top: 50px;
+    }
+  }
+  .consultation {
+    padding-top: 55px;
+  }
+  .title {
+    &_left {
+      font-size: 32px;
+    }
+  }
+}

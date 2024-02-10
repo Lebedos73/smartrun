@@ -1,0 +1,46 @@
+@use "../variables";
+
+@media (max-width: 320px) {
+  .advantages {
+    padding: 40px 0 50px 0;
+    &__block {
+      margin-top: 30px;
+      span {
+        margin: 0;
+      }
+    }
+  }
+
+  .consultation {
+    min-height: 500px;
+    padding: 38px 0 50px 0;
+    &__descr {
+      padding: 0 20px;
+      font-size: 12px;
+      line-height: 16px;
+    }
+  }
+
+  .title {
+    font-size: 22px;
+    &_left {
+      padding: 0 20px;
+      font-size: 19px;
+      line-height: 27px;
+    }
+  }
+
+  .feed-form {
+    align-items: center;
+    input {
+      width: 280px;
+    }
+  }
+
+  .button {
+    &_submit {
+      width: 280px;
+      height: 45px;
+    }
+  }
+}

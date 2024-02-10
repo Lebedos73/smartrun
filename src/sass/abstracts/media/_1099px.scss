@@ -1,0 +1,11 @@
+@use "../variables";
+
+@media (max-width: 1099px) {
+  .carousel {
+    padding: 51px 0;
+  }
+  .next,
+  .prev {
+    display: none;
+  }
+}
