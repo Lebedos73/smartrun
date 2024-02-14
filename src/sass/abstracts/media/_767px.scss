@@ -20,4 +20,26 @@
       width: 100%;
     }
   }
+
+  .catalog {
+    &__tab {
+      width: 190px;
+      font-size: 16px;
+    }
+    &__content {
+      &_active {
+        justify-content: space-around;
+      }
+    }
+  }
+
+  .clients {
+    padding: 0 20px 0 20px;
+  }
+
+  .client {
+    &__descr {
+      font-size: 14px;
+    }
+  }
 }
