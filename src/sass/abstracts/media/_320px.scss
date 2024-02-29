@@ -33,14 +33,47 @@
   .feed-form {
     align-items: center;
     input {
-      width: 280px;
+      min-width: 260px;
     }
   }
 
   .button {
     &_submit {
-      width: 280px;
+      min-width: 260px;
       height: 45px;
+    }
+  }
+
+  .carousel {
+    .container {
+      .tns-outer {
+        min-height: 260px;
+      }
+    }
+  }
+
+  .footer {
+    &__map {
+      height: 380px;
+    }
+    &__info {
+      height: 170px;
+      padding: 30px 25px;
+    }
+    &__addr {
+      margin-bottom: 15px;
+      font-size: 16px;
+    }
+    &__phone {
+      margin-bottom: 15px;
+      font-size: 19px;
+    }
+    &__social-item {
+      width: 42px;
+      height: 42px;
+      img {
+        height: 24px;
+      }
     }
   }
 }

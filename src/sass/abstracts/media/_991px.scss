@@ -7,4 +7,11 @@
   .carousel {
     padding: 41px 0;
   }
+  .catalog {
+    &__content {
+      &_active {
+        justify-content: space-around;
+      }
+    }
+  }
 }

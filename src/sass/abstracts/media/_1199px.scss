@@ -1,4 +1,7 @@
 @use "../variables";
 
 @media (max-width: 1199px) {
+  .tns-outer {
+    min-height: 580px;
+  }
 }

@@ -6,4 +6,20 @@
       width: 220px;
     }
   }
+
+  .footer {
+    &__map {
+      height: 430px;
+    }
+    &__info {
+      height: 200px;
+      padding: 40px 25px;
+    }
+    &__addr {
+      margin-bottom: 15px;
+    }
+    &__phone {
+      margin-bottom: 15px;
+    }
+  }
 }

@@ -14,10 +14,18 @@
   }
   .carousel {
     padding: 21px 0;
+    .container {
+      .tns-outer {
+        min-height: 480px;
+      }
+    }
   }
   .tns-item {
     img {
       width: 100%;
+      .loaded {
+        min-height: 680px;
+      }
     }
   }
 
@@ -25,11 +33,6 @@
     &__tab {
       width: 190px;
       font-size: 16px;
-    }
-    &__content {
-      &_active {
-        justify-content: space-around;
-      }
     }
   }
 
@@ -40,6 +43,16 @@
   .client {
     &__descr {
       font-size: 14px;
+    }
+  }
+
+  .footer {
+    &__info {
+      position: relative;
+      width: 100%;
+    }
+    &__map {
+      height: 530px;
     }
   }
 }

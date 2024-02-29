@@ -58,4 +58,11 @@
       text-align: center;
     }
   }
+  .carousel {
+    .container {
+      .tns-outer {
+        min-height: 440px;
+      }
+    }
+  }
 }

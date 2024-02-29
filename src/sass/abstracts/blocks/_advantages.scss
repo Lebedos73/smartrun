@@ -35,4 +35,9 @@
       color: variables.$button-color;
     }
   }
+  &__icon {
+    &_animated {
+      animation: heartbeat 1.5s ease infinite;
+    }
+  }
 }
